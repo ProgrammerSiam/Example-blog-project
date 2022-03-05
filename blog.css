@@ -1,446 +1,376 @@
 /*reset&common  code start*/
 
-
 * {
-
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    outline: 0;
-    font-weight: 400;
-
-
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: 0;
+  font-weight: 400;
 }
 
 html {
-    background-color: whitesmoke;
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
-
+  background-color: whitesmoke;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-
-    background-color: #fff;
-    width: 120rem;
-    max-width: 100%;
-    margin: auto;
-    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0.1rem 0.1rem #c4c4c4;
+  background-color: #fff;
+  width: 120rem;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0.1rem 0.1rem #c4c4c4;
 }
 
-
-
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
 
 .section-heading {
-
-    font-size: 8rem;
-    text-align: center;
-    font-family: "Italianno", cursive;
+  font-size: 8rem;
+  text-align: center;
+  font-family: "Italianno", cursive;
 }
 
-
 .section-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 
-    padding: 5rem 1rem;
-    min-height: 95vh;
-
+  padding: 5rem 1rem;
+  min-height: 95vh;
 }
 
 .btn {
-
-    background-color: rgb(230, 159, 8);
-    border: none;
-    border-radius: 0.6rem;
-    box-shadow: 0.1rem 0.1rem 0.1rem #222;
-    cursor: pointer;
-    font-size: 1.6rem;
-    padding: 1rem 0;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
+  background-color: rgb(230, 159, 8);
+  border: none;
+  border-radius: 0.6rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem #222;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
-
 /*reset&common  code end*/
-
 
 /*header start here*/
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  background-color: black;
+  color: white;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 1rem;
-    background-color: black;
-    color: white;
-
-
-
-    position: sticky;
-    z-index: 10;
-    top: 0%;
-    min-height: 5vh;
-
-
+  position: sticky;
+  z-index: 10;
+  top: 0%;
+  min-height: 5vh;
 }
 
 .logo-figure {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
 .logo {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 #menu-icon {
-    display: none;
-    margin-top: 1.5rem;
-    cursor: pointer;
+  display: none;
+  margin-top: 1.5rem;
+  cursor: pointer;
 }
 
-
 nav li {
-
-    display: inline-block;
-    margin: 2rem;
-    padding: 1rem;
-    transition: 0.4s;
+  display: inline-block;
+  margin: 2rem;
+  padding: 1rem;
+  transition: 0.4s;
 }
 
 nav li:last-child {
-    margin: 0%;
+  margin: 0%;
 }
 
 nav li:hover {
-    background-color: blue;
-    border-radius: 0.6rem;
-
-
+  background-color: blue;
+  border-radius: 0.6rem;
 }
 
 .nav-link {
-    font-size: 1.8rem;
-    color: white;
-    cursor: pointer;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
 }
-
 
 /*header end here*/
 
 /*banner start here*/
 
 #Blog-banner-section {
-
-    padding: 5rem 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 95vh;
-
-
-
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
 }
 
 .text-white {
-    color: white;
+  color: white;
 }
 
 .banner-heading {
-    display: inline-block;
-    padding: 1rem;
-    font-size: 4rem;
-    background-color: black;
-    color: white;
-    margin-bottom: 1.5rem;
-
+  display: inline-block;
+  padding: 1rem;
+  font-size: 4rem;
+  background-color: black;
+  color: white;
+  margin-bottom: 1.5rem;
 }
 
-
 .banner-desc {
-
-    font-size: 1.8rem;
-
+  font-size: 1.8rem;
 }
 
 #Blog-banner-section article {
-    flex-basis: 50%;
-    margin: 1rem;
-
+  flex-basis: 50%;
+  margin: 1rem;
 }
 
 #Blog-banner-section aside {
-    flex-basis: 50%;
-    text-align: center;
-
+  flex-basis: 50%;
+  text-align: center;
 }
 
 .banner-img {
-
-    height: 55rem;
-    width: 55rem;
-    border: 0.3rem solid black;
+  height: 55rem;
+  width: 55rem;
+  border: 0.3rem solid black;
 }
 
-
 /*banner ene here*/
-
 
 /*about me start */
 
 #Blog-about {
-
-    background-color: #4c4c4c;
-
+  background-color: #4c4c4c;
 }
 
 .card-containers {
-
-    display: flex;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
 .card {
-    flex: 1;
-    background-color: #a09d9d;
-    padding: 3rem 1rem;
-    margin: 2rem;
-    border-radius: 0.6rem;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.3s;
-
+  flex: 1;
+  background-color: #a09d9d;
+  padding: 3rem 1rem;
+  margin: 2rem;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .card-header {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-    text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .card-desc {
-
-    padding: 0.4rem 0;
-    text-align: justify;
-    font-size: 1.6rem;
-    margin-bottom: 5rem;
-
+  padding: 0.4rem 0;
+  text-align: justify;
+  font-size: 1.6rem;
+  margin-bottom: 5rem;
 }
 
 card-btn {
-    align-self: center;
-    width: 80%;
-
-
-
+  align-self: center;
+  width: 80%;
 }
-
-
 
 /*about me end */
 
-
 /*archives start*/
 
-
-
 .archives-containers {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2rem;
-    border-top: 0.1rem solid;
-    border-bottom: 0.1rem solid;
-
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  border-top: 0.1rem solid;
+  border-bottom: 0.1rem solid;
 }
 
 .archives-container-lists {
-
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
 }
 
 .archives-container-list {
-    margin: 2rem;
+  margin: 2rem;
 }
 
 .archives-img {
-
-
-    width: 100%;
-    height: 100%;
-    border-radius: 0.6rem;
-    transition: transform 0.4s;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.6rem;
+  transition: transform 0.4s;
 }
 
 .archives-img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 
 /*archives end here*/
 
-
 /*blog post start here*/
 
-
 .blog-posts-heading {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .blog-post {
-    width: 70%;
+  width: 70%;
 
-    display: flex;
-    margin: 1rem 0;
-    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
-    transition: transform 0.4s;
+  display: flex;
+  margin: 1rem 0;
+  box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+  transition: transform 0.4s;
 }
 
 .blog-post:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .blog-post-aside {
-    flex: 1;
+  flex: 1;
 }
 
 .blog-content {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 1rem;
-    margin-left: 2rem;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin-left: 2rem;
 }
 
 .blog-img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .blog-heading {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .blog-sub-heading {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .blog-description {
-    font-size: 1.6rem;
-    text-align: justify;
-    margin-bottom: 1rem;
+  font-size: 1.6rem;
+  text-align: justify;
+  margin-bottom: 1rem;
 }
 
 .blog-btn {
-    width: 30%;
+  width: 30%;
 }
-
-
 
 /*blog post end here*/
 
 /*contact start*/
 #contact-section {
-    background-color: #4c4c4c;
-    min-height: 90vh;
-
+  background-color: #4c4c4c;
+  min-height: 90vh;
 }
 
 #contact-form {
-    box-shadow: .1rem 0.1rem 0.1em #222, -0.1rem 0 0.1rem #222;
-    padding: 1rem;
-    margin: 1rem;
-    color: white;
-    display: flex;
-    flex-direction: column;
+  box-shadow: 0.1rem 0.1rem 0.1em #222, -0.1rem 0 0.1rem #222;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-contol {
-    margin-bottom: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-contol label {
-    font-size: 1.6rem;
-    flex: 0.3;
+  font-size: 1.6rem;
+  flex: 0.3;
 }
 
 input,
 textarea {
-
-    flex: 0.7;
-    width: 40rem;
-    font-size: 1.6rem;
-    padding: 2rem 1rem;
-    border: none;
-    border-radius: 0.6rem;
+  flex: 0.7;
+  width: 40rem;
+  font-size: 1.6rem;
+  padding: 2rem 1rem;
+  border: none;
+  border-radius: 0.6rem;
 }
 
 textarea {
-    resize: none;
-    height: 12vh;
-
+  resize: none;
+  height: 12vh;
 }
 
 .contact-btn {
-    width: 30%;
+  width: 30%;
 }
 
 .form-btn {
-
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*contact end here*/
 
 /*footer start here*/
 footer {
-    background-color: black;
-    padding: 1rem;
+  background-color: black;
+  padding: 1rem;
 
-    min-height: 5vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 span {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .copy-text {
-    font-size: 1.5rem;
-    color: white;
+  font-size: 1.5rem;
+  color: white;
 }
 
 .footer-icon {
-    font-size: 2.5rem;
-
+  font-size: 2.5rem;
 }
-
-
 
 /*footer end here*/

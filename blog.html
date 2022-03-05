@@ -1,304 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="Responsive.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="blog.css" />
-  <link rel="stylesheet" href="Responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blog Website</title>
+  </head>
 
-  <title>Blog Website</title>
-</head>
+  <body>
+    <!--header start here-->
+    <header id="blog-header">
+      <figure class="logo-figure">
+        <i class="fab fa-autoprefixer logo"></i>
+      </figure>
+      <i class="fas fa-bars fa-4x" id="menu-icon"></i>
 
-<body>
-  <!--header start here-->
-  <header id="blog-header">
-    <figure class="logo-figure">
-      <i class="fab fa-autoprefixer logo"></i>
-    </figure>
-    <i class="fas fa-bars fa-4x" id="menu-icon"></i>
+      <nav aria-label="Main Menu" id="menu" class="hidden">
+        <ul role="menubar" aria-label="Main Menu">
+          <li role="none">
+            <a href="#" class="nav-link" role="menuitem">Home</a>
+          </li>
 
-    <nav aria-label="Main Menu" id="menu" class="hidden">
-      <ul role="menubar" aria-label="Main Menu">
-        <li role="none">
-          <a href="#" class="nav-link" role="menuitem">Home</a>
-        </li>
+          <li role="none">
+            <a href="#Blog-about" class="nav-link" role="menuitem">About</a>
+          </li>
 
-        <li role="none">
-          <a href="#Blog-about" class="nav-link" role="menuitem">About</a>
-        </li>
+          <li role="none">
+            <a href="#archives" class="nav-link" role="menuitem">Archives</a>
+          </li>
 
-        <li role="none">
-          <a href="#archives" class="nav-link" role="menuitem">Archives</a>
-        </li>
+          <li role="none">
+            <a href="#blog-post" class="nav-link" role="menuitem">Blog Post</a>
+          </li>
 
-        <li role="none">
-          <a href="#blog-post" class="nav-link" role="menuitem">Blog Post</a>
-        </li>
+          <li role="none">
+            <a href="#contact-section" class="nav-link" role="menuitem"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <li role="none">
-          <a href="#contact-section" class="nav-link" role="menuitem">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <!--header ed here-->
 
-  <!--header ed here-->
+    <!--main start here-->
 
-  <!--main start here-->
+    <main>
+      <!--banner start-->
+      <section id="Blog-banner-section">
+        <article>
+          <h1 class="banner-heading">Web Development</h1>
 
-  <main>
-    <!--banner start-->
-    <section id="Blog-banner-section">
-      <article>
-        <h1 class="banner-heading">Web Development</h1>
-
-        <p class="banner-desc text-justify">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
-          nulla ea nobis in facere maxime alias laboriosam, non earum
-          excepturi itaque. Quaerat in, laudantium iure itaque iusto cumque
-          obcaecati tenetur molestias expedita officiis neque doloribus esse
-          reiciendis fuga, facere voluptatem. Alias nesciunt et laudantium
-          error omnis maxime, cupiditate dolore. Provident!
-        </p>
-      </article>
-
-      <aside>
-        <img src="cover-photo.jpg" alt="cover" class="banner-img" />
-      </aside>
-    </section>
-
-    <!--banner end-->
-
-    <!---about me start here-->
-    <section id="Blog-about" class="section-center">
-      <h2 class="section-heading text-white">About Me</h2>
-      <div class="card-containers">
-        <div class="card">
-          <h3 class="card-header">Education</h3>
-          <p class="card-desc">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-            earum quisquam id quae maiores, at optio eaque recusandae iusto
-            culpa mollitia itaque ipsa, minima neque quam, tenetur
-            reprehenderit consequuntur porro. Vero iure nostrum ullam
-            delectus, omnis repellat suscipit. Repellat, sapiente.
+          <p class="banner-desc text-justify">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+            nulla ea nobis in facere maxime alias laboriosam, non earum
+            excepturi itaque. Quaerat in, laudantium iure itaque iusto cumque
+            obcaecati tenetur molestias expedita officiis neque doloribus esse
+            reiciendis fuga, facere voluptatem. Alias nesciunt et laudantium
+            error omnis maxime, cupiditate dolore. Provident!
           </p>
-          <button type="submit" class="card-btn btn">Read More</button>
-        </div>
-
-        <div class="card">
-          <h3 class="card-header">Education</h3>
-          <p class="card-desc">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-            earum quisquam id quae maiores, at optio eaque recusandae iusto
-            culpa mollitia itaque ipsa, minima neque quam, tenetur
-            reprehenderit consequuntur porro. Vero iure nostrum ullam
-            delectus, omnis repellat suscipit. Repellat, sapiente.
-          </p>
-          <button type="submit" class="card-btn btn">Read More</button>
-        </div>
-
-        <div class="card">
-          <h3 class="card-header">Education</h3>
-          <p class="card-desc">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-            earum quisquam id quae maiores, at optio eaque recusandae iusto
-            culpa mollitia itaque ipsa, minima neque quam, tenetur
-            reprehenderit consequuntur porro. Vero iure nostrum ullam
-            delectus, omnis repellat suscipit. Repellat, sapiente.
-          </p>
-          <button type="submit" class="card-btn btn">Read More</button>
-        </div>
-      </div>
-    </section>
-
-    <!--about me end here-->
-
-    <!--archives start here-->
-    <section id="archives" class="section-center">
-      <h2 class="section-heading">Archives</h2>
-    </section>
-    <div class="archives-containers">
-      <ul class="archives-container-lists">
-        <li class="archives-container-list">
-          <img src="img-1.jpg" alt="image1" class="archives-img" />
-        </li>
-        <li class="archives-container-list">
-          <img src="img-2.jpg" alt="image1" class="archives-img" />
-        </li>
-        <li class="archives-container-list">
-          <img src="img-3.jpg" alt="image1" class="archives-img" />
-        </li>
-        <li class="archives-container-list">
-          <img src="img-1.jpg" alt="image1" class="archives-img" />
-        </li>
-        <li class="archives-container-list">
-          <img src="img-3.jpg" alt="image1" class="archives-img" />
-        </li>
-      </ul>
-    </div>
-
-    <!--archives start end-->
-
-    <!--blog post start here-->
-    <section id="blog-post" class="section-center">
-      <h2 class="section-heading blog-posts-heading">Blog post</h2>
-      <div class="blog-post">
-        <aside class="blog-post-aside">
-          <img src="img-1.jpg" class="blog-img" />
-        </aside>
-
-        <article class="blog-content">
-          <h2 class="blog-heading">Blog 1</h2>
-          <h3 class="blog-sub-heading">Sub heading</h3>
-          <p class="blog-description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            consectetur quisquam nostrum sunt animi fugiat perspiciatis, magni
-            vero similique dolorem cumque accusantium temporibus unde sequi
-            quam nihil amet ea ipsum corporis ullam laudantium! Obcaecati
-            tempore quisquam dolor totam ad ut voluptatem repellendus
-            inventore. Quos, laborum. Non unde fugiat earum incidunt!
-          </p>
-
-          <button type="submit" class="btn blog-btn">Learn More</button>
         </article>
-      </div>
 
-      <div class="blog-post">
-        <aside class="blog-post-aside">
-          <img src="img-1.jpg" class="blog-img" />
+        <aside>
+          <img src="cover-photo.jpg" alt="cover" class="banner-img" />
         </aside>
+      </section>
 
-        <article class="blog-content">
-          <h2 class="blog-heading">Blog 1</h2>
-          <h3 class="blog-sub-heading">Sub heading</h3>
-          <p class="blog-description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            consectetur quisquam nostrum sunt animi fugiat perspiciatis, magni
-            vero similique dolorem cumque accusantium temporibus unde sequi
-            quam nihil amet ea ipsum corporis ullam laudantium! Obcaecati
-            tempore quisquam dolor totam ad ut voluptatem repellendus
-            inventore. Quos, laborum. Non unde fugiat earum incidunt!
-          </p>
+      <!--banner end-->
 
-          <button type="submit" class="btn blog-btn">Learn More</button>
-        </article>
+      <!---about me start here-->
+      <section id="Blog-about" class="section-center">
+        <h2 class="section-heading text-white">About Me</h2>
+        <div class="card-containers">
+          <div class="card">
+            <h3 class="card-header">Education</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+              earum quisquam id quae maiores, at optio eaque recusandae iusto
+              culpa mollitia itaque ipsa, minima neque quam, tenetur
+              reprehenderit consequuntur porro. Vero iure nostrum ullam
+              delectus, omnis repellat suscipit. Repellat, sapiente.
+            </p>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+
+          <div class="card">
+            <h3 class="card-header">Education</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+              earum quisquam id quae maiores, at optio eaque recusandae iusto
+              culpa mollitia itaque ipsa, minima neque quam, tenetur
+              reprehenderit consequuntur porro. Vero iure nostrum ullam
+              delectus, omnis repellat suscipit. Repellat, sapiente.
+            </p>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+
+          <div class="card">
+            <h3 class="card-header">Education</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+              earum quisquam id quae maiores, at optio eaque recusandae iusto
+              culpa mollitia itaque ipsa, minima neque quam, tenetur
+              reprehenderit consequuntur porro. Vero iure nostrum ullam
+              delectus, omnis repellat suscipit. Repellat, sapiente.
+            </p>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+        </div>
+      </section>
+
+      <!--about me end here-->
+
+      <!--archives start here-->
+      <section id="archives" class="section-center">
+        <h2 class="section-heading">Archives</h2>
+      </section>
+      <div class="archives-containers">
+        <ul class="archives-container-lists">
+          <li class="archives-container-list">
+            <img src="img-1.jpg" alt="image1" class="archives-img" />
+          </li>
+          <li class="archives-container-list">
+            <img src="img-2.jpg" alt="image1" class="archives-img" />
+          </li>
+          <li class="archives-container-list">
+            <img src="img-3.jpg" alt="image1" class="archives-img" />
+          </li>
+          <li class="archives-container-list">
+            <img src="img-1.jpg" alt="image1" class="archives-img" />
+          </li>
+          <li class="archives-container-list">
+            <img src="img-3.jpg" alt="image1" class="archives-img" />
+          </li>
+        </ul>
       </div>
 
-      <div class="blog-post">
-        <aside class="blog-post-aside">
-          <img src="img-1.jpg" class="blog-img" />
-        </aside>
+      <!--archives start end-->
 
-        <article class="blog-content">
-          <h2 class="blog-heading">Blog 1</h2>
-          <h3 class="blog-sub-heading">Sub heading</h3>
-          <p class="blog-description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            consectetur quisquam nostrum sunt animi fugiat perspiciatis, magni
-            vero similique dolorem cumque accusantium temporibus unde sequi
-            quam nihil amet ea ipsum corporis ullam laudantium! Obcaecati
-            tempore quisquam dolor totam ad ut voluptatem repellendus
-            inventore. Quos, laborum. Non unde fugiat earum incidunt!
-          </p>
+      <!--blog post start here-->
+      <section id="blog-post" class="section-center">
+        <h2 class="section-heading blog-posts-heading">Blog post</h2>
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img src="img-1.jpg" class="blog-img" />
+          </aside>
 
-          <button type="submit" class="btn blog-btn">Learn More</button>
-        </article>
-      </div>
-    </section>
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 1</h2>
+            <h3 class="blog-sub-heading">Sub heading</h3>
+            <p class="blog-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+              consectetur quisquam nostrum sunt animi fugiat perspiciatis, magni
+              vero similique dolorem cumque accusantium temporibus unde sequi
+              quam nihil amet ea ipsum corporis ullam laudantium! Obcaecati
+              tempore quisquam dolor totam ad ut voluptatem repellendus
+              inventore. Quos, laborum. Non unde fugiat earum incidunt!
+            </p>
 
-    <!--bog post end here-->
-
-    <!--contact start here-->
-    <section id="contact-section" class="section-center">
-      <h2 class="section-heading blog-posts-heading text-white">
-        Contact Me
-      </h2>
-
-      <form action="" id="contact-form">
-        <div class="form-contol">
-          <label for="Name">Name:</label>
-          <input type="text" id="name" required autocomplete="name" />
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
         </div>
 
-        <div class="form-contol">
-          <label for="Name">Email:</label>
-          <input type="email" id="email" required autocomplete="email" />
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img src="img-1.jpg" class="blog-img" />
+          </aside>
+
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 1</h2>
+            <h3 class="blog-sub-heading">Sub heading</h3>
+            <p class="blog-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+              consectetur quisquam nostrum sunt animi fugiat perspiciatis, magni
+              vero similique dolorem cumque accusantium temporibus unde sequi
+              quam nihil amet ea ipsum corporis ullam laudantium! Obcaecati
+              tempore quisquam dolor totam ad ut voluptatem repellendus
+              inventore. Quos, laborum. Non unde fugiat earum incidunt!
+            </p>
+
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
         </div>
 
-        <div class="form-contol">
-          <label for="message">Message:</label>
-          <textarea name="message" id="message"> </textarea>
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img src="img-1.jpg" class="blog-img" />
+          </aside>
+
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 1</h2>
+            <h3 class="blog-sub-heading">Sub heading</h3>
+            <p class="blog-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+              consectetur quisquam nostrum sunt animi fugiat perspiciatis, magni
+              vero similique dolorem cumque accusantium temporibus unde sequi
+              quam nihil amet ea ipsum corporis ullam laudantium! Obcaecati
+              tempore quisquam dolor totam ad ut voluptatem repellendus
+              inventore. Quos, laborum. Non unde fugiat earum incidunt!
+            </p>
+
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
         </div>
+      </section>
 
-        <div class="form-contol form-btn">
-          <button type="submit" class="btn contact-btn">Submit</button>
-        </div>
-      </form>
-    </section>
+      <!--bog post end here-->
 
-    <!--contact end here-->
-  </main>
+      <!--contact start here-->
+      <section id="contact-section" class="section-center">
+        <h2 class="section-heading blog-posts-heading text-white">
+          Contact Me
+        </h2>
 
-  <!--main end here-->
+        <form action="" id="contact-form">
+          <div class="form-contol">
+            <label for="Name">Name:</label>
+            <input type="text" id="name" required autocomplete="name" />
+          </div>
 
-  <!--footer start here-->
-  <footer>
-    <p class="copy-text">
-      Copyright &copy;all right reserved by <span> Mehedi Hasan Siam. </span>
-    </p>
+          <div class="form-contol">
+            <label for="Name">Email:</label>
+            <input type="email" id="email" required autocomplete="email" />
+          </div>
 
-    <nav aria-label="footer Menu">
-      <ul role="menubar2" id="menubar2" aria-label="footer Menu">
-        <li role="none">
-          <a href="https://www.facebook.com/mehedihasan.siam.3597" class="nav-link" role="menuitem">
-            <i class="fab fa-facebook footer-icon"></i>
-          </a>
-        </li>
+          <div class="form-contol">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message"> </textarea>
+          </div>
 
-        <li role="none">
-          <a href="https://www.youtube.com" target="blank" class="nav-link" role="menuitem">
-            <i class="fab fa-youtube footer-icon"></i>
-          </a>
-        </li>
+          <div class="form-contol form-btn">
+            <button type="submit" class="btn contact-btn">Submit</button>
+          </div>
+        </form>
+      </section>
 
-        <li role="none">
-          <a href="https://github.com/Siam10101" target="blank" class="nav-link" role="menuitem">
-            <i class="fab fa-github footer-icon"></i>
-          </a>
-        </li>
+      <!--contact end here-->
+    </main>
 
-        <li role="none">
-          <a href="https://www.linkedin.com/in/mehedi-hasan-siam-468152231/" target="blank" class="nav-link"
-            role="menuitem">
-            <i class="fab fa-linkedin-in footer-icon"></i>
-          </a>
-        </li>
+    <!--main end here-->
 
+    <!--footer start here-->
+    <footer>
+      <p class="copy-text">
+        Copyright &copy;all right reserved by <span> Mehedi Hasan Siam. </span>
+      </p>
 
-        <li role="none"></li>
+      <nav aria-label="footer Menu">
+        <ul role="menubar2" id="menubar2" aria-label="footer Menu">
+          <li role="none">
+            <a
+              href="https://www.facebook.com/mehedihasan.siam.3597"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-facebook footer-icon"></i>
+            </a>
+          </li>
 
-        </li>
+          <li role="none">
+            <a
+              href="https://www.youtube.com"
+              target="blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-youtube footer-icon"></i>
+            </a>
+          </li>
 
+          <li role="none">
+            <a
+              href="https://github.com/Siam10101"
+              target="blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-github footer-icon"></i>
+            </a>
+          </li>
 
+          <li role="none">
+            <a
+              href="https://www.linkedin.com/in/mehedi-hasan-siam-468152231/"
+              target="blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-linkedin-in footer-icon"></i>
+            </a>
+          </li>
 
-      </ul>
-    </nav>
-  </footer>
+          <li role="none"></li>
+        </ul>
+      </nav>
+    </footer>
 
-  <!--footer end here-->
+    <!--footer end here-->
 
-  <script src="index.js"></script>
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>
